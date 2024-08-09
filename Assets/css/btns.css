@@ -1,0 +1,152 @@
+.hide {
+    display: none;
+}
+
+.btn-chamados{
+    margin-top: 30px;
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+    height: auto;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.btn-chamados span{
+    position: relative;
+    z-index: 2;
+}
+
+.btn-chamados:hover:after{
+    color: #333;
+    width: 100%;
+}
+
+
+.btn-aprovado:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #b1e9f0;
+    transition: all .35s;
+}
+
+.btn-aprovado {
+    border: 2px solid #00bbd3;
+}
+
+.btn-reprovado {
+    border: 2px solid #d71b60;
+    margin-left: 10px;
+}
+
+.btn-reprovado:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #f28eb0;
+    transition: all .35s;
+}
+
+.btn-aprovado-prog:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #dae9fd;
+    transition: all .35s;
+}
+
+.btn-aprovado-prog {
+    border: 2px solid #a7cefd;
+}
+
+.btn-reprovado-prog {
+    border: 2px solid #e44a19;
+    margin-left: 10px;
+}
+
+.btn-reprovado-prog:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #fdaa90;
+    transition: all .35s;
+}
+
+.btn-reprovado-analise {
+    border: 2px solid #fd9696;
+}
+
+.btn-reprovado-analise:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #fdbaba;
+    transition: all .35s;
+}
+
+.btn-retornado {
+    border: 2px solid #4ae270;
+}
+
+.btn-retornado:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #bcf2ca;
+    transition: all .35s;
+}
+
+.btn-arquivar {
+    border: 2px solid #252323;
+}
+
+.btn-arquivar:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background: #888888;
+    transition: all .35s;
+}
+.btn-arquivar:hover{
+    color: #ffffff;
+}
+
+
+
